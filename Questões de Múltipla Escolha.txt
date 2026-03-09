@@ -1,0 +1,66 @@
+Questões de Múltipla Escolha 
+1. Qual comando transforma uma pasta comum em um repositório local do 
+Git?  
+
+b) git init  
+
+
+2. Após alterar um arquivo, qual a ordem correta dos comandos para enviar a 
+mudança ao GitHub? 
+ 
+c) add -> commit -> push 
+
+
+3. Para que serve o comando git status?  
+ 
+c) Para listar quais arquivos foram modificados e ainda não foram salvos.  
+
+
+4. O que o parâmetro -m faz no comando git commit -m "mensagem"? 
+ 
+c) Permite escrever uma mensagem descrevendo o que foi feito.  
+
+
+
+Parte 2: Atividade Prática (Mão na Massa) 
+
+Desafio: "O Diário do Desenvolvedor" 
+
+Passo 1: Preparação Crie uma pasta chamada meu-diario no seu computador e 
+entre nela pelo terminal. 
+Comando: mkdir meu-diario e depois cd meu-diario 
+
+Passo 2: O Nascimento do Repositório Inicie o Git nesta pasta. 
+Comando: git init 
+
+Passo 3: Criando o Conteúdo Crie um arquivo chamado README.md (pode usar 
+o Bloco de Notas ou o comando echo) e escreva dentro dele: "Este é o meu 
+repositório de estudos de Git". 
+
+Passo 4: O Primeiro Registro Adicione o arquivo para preparação e tire a primeira 
+"foto" (commit). 
+Comandos: > 1. git add README.md 2. git commit -m "Primeiro registro do diário" 
+
+Passo 5: A Conexão com a Nuvem Vá ao GitHub, crie um repositório vazio 
+chamado meu-diario e conecte-o ao seu PC. 
+Comando: git remote add origin [LINK_DO_SEU_REPOSITORIO] 
+
+Passo 6: O Envio Final Mande o seu diário para o GitHub. 
+Comando: git push -u origin main 
+
+
+Parte 3: Desafio de Erros (Debugging) 
+
+1. Cenário A: Um aluno digitou git push e o terminal respondeu Everything up
+to-date, mas o arquivo novo não apareceu no GitHub. O que ele esqueceu 
+de fazer?  
+
+2. Cenário B: O aluno tentou dar um commit e apareceu o erro: Author 
+identity unknown. Como ele resolve isso?  
+Pesquise os comandos e dois pratique-os  
+Desafio Prático  
+"Escolha um colega de classe, adicione-o como colaborador no seu projeto e 
+peça para ele criar um arquivo chamado parceiro.txt dentro do seu repositório via 
+git push. Depois, você deve usar o comando git pull para puxar essa alteração 
+para o seu computador!" 
+Boa atividade compartilhem com a professora
