@@ -1,0 +1,45 @@
+Questões de Múltipla Escolha 
+1. Qual comando transforma uma pasta comum em um repositório local do 
+Git?  
+
+b) git init  
+
+
+2. Após alterar um arquivo, qual a ordem correta dos comandos para enviar a 
+mudança ao GitHub? 
+ 
+c) add -> commit -> push 
+
+
+3. Para que serve o comando git status?  
+ 
+c) Para listar quais arquivos foram modificados e ainda não foram salvos.  
+
+
+4. O que o parâmetro -m faz no comando git commit -m "mensagem"? 
+ 
+c) Permite escrever uma mensagem descrevendo o que foi feito.  
+
+
+
+Parte 3: Desafio de Erros (Debugging) 
+
+1. Cenário A: Um aluno digitou git push e o terminal respondeu Everything up
+to-date, mas o arquivo novo não apareceu no GitHub. O que ele esqueceu 
+de fazer?  
+
+R:Ele não fez o commit do arquivo novo, faltou
+git add .
+git commit -m "mensagem"
+git push
+
+2. Cenário B: O aluno tentou dar um commit e apareceu o erro: Author 
+identity unknown. Como ele resolve isso?  
+
+R:O usuário ainda não se cadastrou, faltou o
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@email.com"
+
+Pesquise os comandos e dois pratique-os  
+
+
